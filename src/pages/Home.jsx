@@ -1,10 +1,10 @@
 
 import { Typography, Container, TextField, Pagination, Skeleton } from '@mui/material';
-import  PokemonList  from '../components/PokemonList';
-import  FadeIn  from '../components/FadeIn';
-import { StyledDiv } from '../themes/themes';
+import  PokemonList  from '../components/PokemonList.jsx';
+import  FadeIn  from '../components/FadeIn.jsx';
+import { StyledDiv } from '../themes/themes.js';
 import { useEffect, useState, useContext } from 'react';
-import { AppContext } from '../AppContext';
+import { AppContext } from '../AppContext.jsx';
 import { fetchPokemonCount, fetchPokemonCard } from "../fetch/fetch";
 import { useNavigate } from 'react-router-dom';
 

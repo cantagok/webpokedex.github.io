@@ -1,9 +1,9 @@
 
 import { Container, Grid, CircularProgress, Skeleton } from "@mui/material";
 import { useEffect, useState } from "react";
-import { PokemonCard } from "./PokemonCard";
-import { fetchPokemonCard } from "../fetch/fetch";
-import FadeIn from './FadeIn';
+import { PokemonCard } from "./PokemonCard.jsx";
+import { fetchPokemonCard } from "../fetch/fetch.js";
+import FadeIn from './FadeIn.jsx';
 import { Box } from "@mui/system";
 
 

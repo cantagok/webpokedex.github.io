@@ -2,11 +2,11 @@ import { Container, Grid, Button, Typography, ImageListItem, Stack, Box, styled,
 import { useParams, Link } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { useEffect, useState } from 'react';
-import { fetchPokemonStats } from '../fetch/fetch';
-import PokemonChip from '../components/PokemonChip'
-import PokemonProgressBar from "../components/PokemonProgressBar";
-import PokemonProgressLabel from "../components/PokemonProgressLabel";
-import FadeIn from "../components/FadeIn";
+import { fetchPokemonStats } from '../fetch/fetch.js';
+import PokemonChip from '../components/PokemonChip.jsx'
+import PokemonProgressBar from "../components/PokemonProgressBar.jsx";
+import PokemonProgressLabel from "../components/PokemonProgressLabel.jsx";
+import FadeIn from "../components/FadeIn.jsx";
 
 
 function PokemonPage(){
