@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param {number} width 
+ * @param {number} id 
+ * @returns 
+ */
+
 const imageIndex = (width, id) => {
     const pokeNum = (new Array(width).join('0') + id).substr(-width);
     return pokeNum;

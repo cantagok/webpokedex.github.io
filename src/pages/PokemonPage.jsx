@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { useEffect, useState } from 'react';
 import { fetchPokemonStats } from '../fetch/fetch.js';
-import PokemonChip from '../components/PokemonChip.jsx'
+import PokemonChip from '../components/PokemonChip.js'
 import PokemonProgressBar from "../components/PokemonProgressBar.jsx";
 import PokemonProgressLabel from "../components/PokemonProgressLabel.jsx";
 import FadeIn from "../components/FadeIn.jsx";
