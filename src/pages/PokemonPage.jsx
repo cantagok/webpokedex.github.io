@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { useEffect, useState } from 'react';
 import { fetchPokemonStats } from '../fetch/fetch.js';
-import PokemonChip from '../components/PokemonChip.js'
+import PokemonChip from '../components/PokemonChip.jsx'
 import PokemonProgressBar from "../components/PokemonProgressBar.jsx";
 import PokemonProgressLabel from "../components/PokemonProgressLabel.jsx";
 import FadeIn from "../components/FadeIn.jsx";
@@ -23,7 +23,7 @@ function PokemonPage(){
     return (
         <main>
             <Container sx={{ padding: '20px 0', marginTop: '25px', marginLeft: 'auto' }} maxWidth="lg">
-                <Link to={'/'} style={{ textDecoration: 'none'}}>
+                <Link to={'/Home'} style={{ textDecoration: 'none'}}>
                     <Button startIcon={<ArrowBackIosIcon/>} color='error' size='large' sx={{ ml: '145px'}}> Home </Button>
                 </Link>
             </Container>

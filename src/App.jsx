@@ -1,9 +1,9 @@
 import { BrowserRouter as Router, Routes, Route, Navigate} from 'react-router-dom'
 import { CssBaseline } from '@mui/material'
-import Navbar from './components/Navbar.js'
-import Home from './pages/Home.js'
-import PokemonPage from './pages/PokemonPage.js'
-import { AppProvider } from './AppContext.js'
+import Navbar from './components/Navbar.jsx'
+import Home from './pages/Home.jsx'
+import PokemonPage from './pages/PokemonPage.jsx'
+import { AppProvider } from './AppContext.jsx'
 
 /**  
  * Implement A search Function 
